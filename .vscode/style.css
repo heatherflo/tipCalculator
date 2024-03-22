@@ -1,4 +1,6 @@
 .calculator {
-  background-color: teal;
-  box-shadow: 2px rgba(white, white, white, );
+  background-color: rgb(81, 205, 205);
+  box-shadow: 2px rgba(gray, white, white, .5);
+  height: 300px;
+  width: 500px;
 }
