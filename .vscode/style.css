@@ -1,6 +1,47 @@
-.calculator {
+.container {
   background-color: rgb(81, 205, 205);
-  box-shadow: 2px rgba(gray, white, white, .5);
-  height: 300px;
-  width: 500px;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: solid black;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(179, 174, 174);
+}
+
+#total {
+  font-size: 20px;
+  color: black;
+  margin-top: 5px;
 }
